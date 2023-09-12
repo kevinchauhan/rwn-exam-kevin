@@ -8,7 +8,7 @@ const FilterProducts = () => {
     const handleSearch = (e) => {
         const search = e.target.value
         if (search) {
-            const filteredProducts = products.filter(product => {
+            const filteredProducts = data.filter(product => {
                 const title = product.title.toUpperCase()
                 if (title.includes(search.toUpperCase())) {
                     console.log(search)
