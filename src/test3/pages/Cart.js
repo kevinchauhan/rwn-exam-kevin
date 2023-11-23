@@ -15,7 +15,7 @@ const Cart = () => {
             <h1 className='text-xl font-medium border-b'>Cart</h1>
 
             {
-                state.cart.length < 1 ? <h1 className='text-center py-5 text-xl'>No items in cart...</h1>
+                state.cart.length < 1 ? <h1 className='text-center py-5 text-xl'>No items ink cart...</h1>
                     : <div class="relative overflow-x-auto">
                         <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
                             <thead class="text-sm text-gray-100 uppercase bg-violet-50 dark:bg-violet-700 dark:text-gray-100">

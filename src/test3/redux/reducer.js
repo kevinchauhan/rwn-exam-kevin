@@ -14,7 +14,7 @@ const reducer = (state = initial, action) => {
             }
         })
         if (checkItem) {
-            const oldCart = state.cart
+            const oldCart = [...state.cart]
             oldCart[action.payload].qty += 1
 
             return { ...state, cart: oldCart }
