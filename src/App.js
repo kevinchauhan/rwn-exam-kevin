@@ -1,13 +1,15 @@
-import React from 'react'
-import FilterProducts from './Components/FilterProducts'
+import React from "react"
 import './App.css'
+import Test3 from "./test3/Test3"
 
 const App = () => {
+
   return (
     <>
-      <FilterProducts />
+      <Test3 />
     </>
   )
+
 }
 
 export default App
