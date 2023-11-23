@@ -8,7 +8,7 @@ const Header = () => {
     return (
         <header className='shadow bg-violet-500'>
             <div className="container flex justify-between py-3 text-xl">
-                <div className="logo font-medium">LOGO</div>
+                <div className="logo font-medium"><Link to={'/'}>LOGO</Link></div>
                 <div className="menu">
                     <ul className='flex gap-3'>
                         <li className='hover:text-gray-200 text-gray-900'><Link to="/">Products</Link></li>
